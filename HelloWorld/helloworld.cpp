@@ -6,5 +6,5 @@ void PrintMessage(const char* messege)
 }
 int main()
 {
-	std::cout << "Hello, World\n";
+	PrintMessage("Hello, World");
 }
