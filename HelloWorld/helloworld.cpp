@@ -1,11 +1,11 @@
 #include <iostream>
 
-void PrintMessage()
+void PrintMessage(const char* messege)
 {
-	std::cout << "Hello, World\n";
+	std::cout << messege;
 }
 
 int main()
 {
-	PrintMessage();
+	PrintMessage("Hello, world\n");
 }
